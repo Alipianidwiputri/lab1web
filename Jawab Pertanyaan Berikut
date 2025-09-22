@@ -46,20 +46,14 @@ Hasilnya:
 Kalau gambarnya hilang, yang muncul “Seekor kucing lucu” (alt).
 Kalau gambar ada dan kamu arahkan mouse ke situ, akan muncul tulisan “Ini kucing kesayangan saya” (title).
 
-4. Oke, aku jelasin dengan cara gampang ya:
+4. Kalau mau atur ukuran gambar di HTML, memang ada dua atribut: `width` (lebar) dan `height` (tinggi).
 
-Kalau mau atur ukuran gambar di HTML, memang ada dua atribut: **`width`** (lebar) dan **`height`** (tinggi).
-
-👉 Supaya gambar **tetap proporsional** (nggak gepeng atau ketarik), **sebaiknya jangan diisi dua-duanya sekaligus**.
+Supaya gambar tetap proporsional (nggak gepeng atau ketarik), sebaiknya jangan diisi dua-duanya sekaligus.
 Cukup isi salah satu aja, biasanya `width`. Browser nanti otomatis menyesuaikan sisi lainnya biar bentuk gambar tetap sesuai aslinya.
+Kalau kamu isi dua-duanya dengan angka yang nggak sesuai rasio gambar aslinya, gambarnya bisa jadi:
+* keliatan gendut (kalau dilebarin kebanyakan), atau
+* keliatan kurus panjang (kalau tingginya dipaksa kecil).
 
-Kalau kamu isi dua-duanya dengan angka yang **nggak sesuai rasio gambar aslinya**, gambarnya bisa jadi:
-
-* keliatan **gendut** (kalau dilebarin kebanyakan), atau
-* keliatan **kurus panjang** (kalau tingginya dipaksa kecil).
-
-Jadi singkatnya: **isi salah satu aja biar gambar tetap enak dilihat**.
-
-Mau aku bikinin contoh kode dengan dua versi (satu pakai `width` aja, satu pakai `width` + `height`) biar kelihatan perbedaan hasilnya?
+Jadi intinya: isi salah satu aja biar gambar tetap enak dilihat
 
 
