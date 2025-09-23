@@ -1,6 +1,11 @@
-Penejelasan kode Python 
+# Screanshot Code Python
 
-```html
+<img width="1915" height="1000" alt="Screenshot 2025-09-22 134909" src="https://github.com/user-attachments/assets/d05b4b31-84f8-48d9-9b6d-8b5dc6d0964a" />
+
+# Penjelasan kode Python 
+
+```html<img width="1915" height="1000" alt="Screenshot 2025-09-22 134909" src="https://github.com/user-attachments/assets/9575b07e-6bee-4a76-8c14-07363edd1e8a" />
+
 <!DOCTYPE html>
 <html lang="en">
 ```
@@ -66,7 +71,7 @@ Teks "Belajar Dasar HTML" menjadi headline besar di halaman.
 ```
 
 - Paragraf yang berisi penjelasan tujuan pembelajaran.
-- Atribut `align="center"` dipakai untuk meratakan teks ke tengah, meskipun catatan: dalam HTML5 atribut ini **sudah usang (deprecated)**, sebaiknya pakai CSS (`text-align: center;`).
+- Atribut `align="center"` dipakai untuk meratakan teks ke tengah, meskipun catatan: dalam HTML5 atribut ini sudah usang (deprecated), sebaiknya pakai CSS (`text-align: center;`).
 
 ```html
     <h1>Paragraf Pada HTML</h1>
@@ -102,7 +107,7 @@ Heading kedua yang memperkenalkan submateri tentang paragraf.
 - `src="..."` → menunjukkan lokasi file gambar.
   Dalam hal ini, file gambar adalah *Logo-Universitas-Pelita-Bangsa-removebg-preview\.png*.
 
-# Tapi ada masalah: tag `<img>` belum ditutup. Harusnya ditulis:
+> Tapi ada masalah: tag `<img>` belum ditutup. Harusnya ditulis:
 
 ```html
 <img src="Logo-Universitas-Pelita-Bangsa-removebg-preview.png" alt="Logo Universitas Pelita Bangsa">
@@ -120,6 +125,6 @@ Heading kedua yang memperkenalkan submateri tentang paragraf.
 Kesimpulan akademis:
 
 - Struktur kode sudah sesuai standar HTML dasar (ada head, body, nav, heading, paragraf, dan gambar).
-- Ada beberapa atribut (`align`, `img` tanpa `alt`) yang sudah tidak sesuai rekomendasi HTML5 modern, sebaiknya diganti dengan **CSS** untuk styling.
+- Ada beberapa atribut (`align`, `img` tanpa `alt`) yang sudah tidak sesuai rekomendasi HTML5 modern, sebaiknya diganti dengan CSS untuk styling.
 - Navigasi `<nav>` bagus untuk struktur semantik.
 - Identitas mahasiswa jelas ditampilkan dengan paragraf.
