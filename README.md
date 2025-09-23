@@ -113,6 +113,7 @@ Heading kedua yang memperkenalkan submateri tentang paragraf.
   <img src="Logo-Universitas-Pelita-Bangsa-removebg-preview.png" alt="Logo Universitas Pelita Bangsa">
 ```
 
+Penjelasan :
 <img>: digunakan untuk menampilkan gambar.
 
 src="..." → menunjukkan lokasi file gambar.
