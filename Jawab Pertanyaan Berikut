@@ -51,9 +51,34 @@ Kalau gambar ada dan kamu arahkan mouse ke situ, akan muncul tulisan “Ini kuci
 Supaya gambar tetap proporsional (nggak gepeng atau ketarik), sebaiknya jangan diisi dua-duanya sekaligus.
 Cukup isi salah satu aja, biasanya `width`. Browser nanti otomatis menyesuaikan sisi lainnya biar bentuk gambar tetap sesuai aslinya.
 Kalau kamu isi dua-duanya dengan angka yang nggak sesuai rasio gambar aslinya, gambarnya bisa jadi:
-* keliatan gendut (kalau dilebarin kebanyakan), atau
-* keliatan kurus panjang (kalau tingginya dipaksa kecil).
+- keliatan gendut (kalau dilebarin kebanyakan), atau
+- keliatan kurus panjang (kalau tingginya dipaksa kecil).
 
 Jadi intinya: isi salah satu aja biar gambar tetap enak dilihat
+
+5. Atribut `target` di tag `<a>` itu kayak ngasih “instruksi arah” ke browser: link ini nanti mau dibuka di mana. Nah, tiap nilai punya efek beda-beda:
+
+1. `_blank`
+   Link bakal kebuka di **tab baru atau jendela baru** (tergantung setting browser).
+   Ibaratnya: "Bro, jangan ganggu halaman ini, bukain pintu baru aja!"
+
+2. `_self`
+   Link bakal kebuka di **halaman yang sama** (ini default kalau target nggak ditulis).
+   Jadi ya halaman yang lagi kamu lihat bakal langsung ganti isinya sama link tujuan.
+
+3. `_top`
+   Link bakal buka di **jendela utama paling atas**, ngegantiin semua frame kalau halamanmu lagi pakai *frameset* (yang jujur aja udah jarang banget dipakai sekarang).
+   Anggep aja kayak bilang: "Udah deh, jangan main di kotak-kotak kecil, langsung tampil di layar penuh aja!"
+
+4. `_parent`
+   Link bakal buka di **jendela induk/frame di atasnya**. Jadi kalau link ini ada di dalam frame, dia bakal keluar dan buka di “orang tuanya”.
+   Contohnya: kamu lagi buka frame anak, klik link, eh malah nongol di frame ibunya.
+
+Kalau halaman web biasa (nggak pakai frame), `target="_top"` dan `target="_parent"` efeknya sama aja: ya ganti halaman yang ada sekarang.
+
+
+
+
+
 
 
