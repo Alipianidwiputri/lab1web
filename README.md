@@ -1,7 +1,3 @@
-# Screanshot Code Python
-
-<img width="1915" height="1000" alt="Screenshot 2025-09-22 134909" src="https://github.com/user-attachments/assets/d05b4b31-84f8-48d9-9b6d-8b5dc6d0964a" />
-
 # Penjelasan kode Python 
 
 ```html<img width="1915" height="1000" alt="Screenshot 2025-09-22 134909" src="https://github.com/user-attachments/assets/9575b07e-6bee-4a76-8c14-07363edd1e8a" />
@@ -97,23 +93,6 @@ Heading kedua yang memperkenalkan submateri tentang paragraf.
 ```
 
 - Heading level 3, subjudul untuk bagian tentang menambahkan gambar.
-
-```html
-    <img src="Logo-Universitas-Pelita-Bangsa-removebg-preview.png"
-```
-
-- `<img>`: digunakan untuk menampilkan gambar.
-
-- `src="..."` → menunjukkan lokasi file gambar.
-  Dalam hal ini, file gambar adalah *Logo-Universitas-Pelita-Bangsa-removebg-preview\.png*.
-
-> Tapi ada masalah: tag `<img>` belum ditutup. Harusnya ditulis:
-
-```html
-<img src="Logo-Universitas-Pelita-Bangsa-removebg-preview.png" alt="Logo Universitas Pelita Bangsa">
-```
-
-`alt="..."` itu wajib secara akademis, sebagai teks alternatif kalau gambar gagal ditampilkan atau untuk aksesibilitas.
 
 ```html
 </body>
