@@ -44,6 +44,11 @@
 
 `<hr>`: membuat garis horizontal, biasanya dipakai untuk pemisah konten.
 
+Output :
+
+<img width="935" height="48" alt="Screenshot 2025-09-23 122233" src="https://github.com/user-attachments/assets/629bba84-8d39-443d-b247-4b6c0141b309" />
+
+
 ```html
     <p> Nama        : Alipiani Dwi Putri </p>
     <p> NIM         : 312410691 </p>
@@ -53,6 +58,11 @@
 
 `<p>`: menampilkan teks sebagai paragraf.
 Di sini dipakai untuk menampilkan identitas mahasiswa (nama, NIM, kelas, mata kuliah).
+
+Output :
+
+<img width="936" height="162" alt="Screenshot 2025-09-23 122401" src="https://github.com/user-attachments/assets/99b0e884-8e73-4e9d-bd2a-e9bc4ee913ac" />
+
 
 ```html
     <h1>Belajar Dasar HTML</h1>
@@ -88,11 +98,32 @@ Heading kedua yang memperkenalkan submateri tentang paragraf.
 
 - Paragraf sederhana berisi catatan bahwa ini adalah tugas praktikum.
 
+  Output :
+
+  <img width="944" height="374" alt="Screenshot 2025-09-23 122553" src="https://github.com/user-attachments/assets/689cbd95-0da0-4ff6-a804-229a57d5a6b7" />
+
+
 ```html
     <h3>Menambahkan Gambar</h3>
 ```
 
 - Heading level 3, subjudul untuk bagian tentang menambahkan gambar.
+  
+  ```
+  <img src="Logo-Universitas-Pelita-Bangsa-removebg-preview.png" alt="Logo Universitas Pelita Bangsa">
+```
+
+<img>: digunakan untuk menampilkan gambar.
+
+src="..." → menunjukkan lokasi file gambar.
+Dalam hal ini, file gambar adalah Logo-Universitas-Pelita-Bangsa-removebg-preview.png.
+
+alt="..." itu wajib secara akademis, sebagai teks alternatif kalau gambar gagal ditampilkan atau untuk aksesibilitas.
+
+  Output :
+
+  <img width="950" height="776" alt="Screenshot 2025-09-23 122751" src="https://github.com/user-attachments/assets/e93545d1-18e5-4bdf-84fd-9fd97702c59f" />
+
 
 ```html
 </body>
@@ -107,3 +138,14 @@ Kesimpulan akademis:
 - Ada beberapa atribut (`align`, `img` tanpa `alt`) yang sudah tidak sesuai rekomendasi HTML5 modern, sebaiknya diganti dengan CSS untuk styling.
 - Navigasi `<nav>` bagus untuk struktur semantik.
 - Identitas mahasiswa jelas ditampilkan dengan paragraf.
+
+# Tangkapan Layar seluruh code Python
+
+<img width="1919" height="1005" alt="Screenshot 2025-09-23 123217" src="https://github.com/user-attachments/assets/3f5436b0-4d27-4620-9eaa-6f11e17b7a34" />
+
+# Tangkapan Layar Hasil (Output)
+
+<img width="950" height="776" alt="Screenshot 2025-09-23 122751" src="https://github.com/user-attachments/assets/4c611f1b-f25b-4134-94d5-902558aa3354" />
+
+
+
