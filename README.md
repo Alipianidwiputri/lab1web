@@ -1,4 +1,6 @@
-# Penjelasan kode Python 
+# Penjelasan kode Python dan screenshot setiap langkah dan perubahan
+
+# Penjelasan kode Python
 
 ```html<img width="1915" height="1000" alt="Screenshot 2025-09-22 134909" src="https://github.com/user-attachments/assets/9575b07e-6bee-4a76-8c14-07363edd1e8a" />
 
@@ -44,7 +46,7 @@
 
 `<hr>`: membuat garis horizontal, biasanya dipakai untuk pemisah konten.
 
-Output :
+**Output :**
 
 <img width="935" height="48" alt="Screenshot 2025-09-23 122233" src="https://github.com/user-attachments/assets/629bba84-8d39-443d-b247-4b6c0141b309" />
 
@@ -59,7 +61,7 @@ Output :
 `<p>`: menampilkan teks sebagai paragraf.
 Di sini dipakai untuk menampilkan identitas mahasiswa (nama, NIM, kelas, mata kuliah).
 
-Output :
+**Output :**
 
 <img width="936" height="162" alt="Screenshot 2025-09-23 122401" src="https://github.com/user-attachments/assets/99b0e884-8e73-4e9d-bd2a-e9bc4ee913ac" />
 
@@ -98,7 +100,7 @@ Heading kedua yang memperkenalkan submateri tentang paragraf.
 
 - Paragraf sederhana berisi catatan bahwa ini adalah tugas praktikum.
 
-  Output :
+  **Output :**
 
   <img width="944" height="374" alt="Screenshot 2025-09-23 122553" src="https://github.com/user-attachments/assets/689cbd95-0da0-4ff6-a804-229a57d5a6b7" />
 
@@ -108,38 +110,37 @@ Heading kedua yang memperkenalkan submateri tentang paragraf.
 ```
 
 - Heading level 3, subjudul untuk bagian tentang menambahkan gambar.
-  
-  ```
-  <img src="Logo-Universitas-Pelita-Bangsa-removebg-preview.png" alt="Logo Universitas Pelita Bangsa">
+```
+<img src="Logo-Universitas-Pelita-Bangsa-removebg-preview.png" alt="Logo Universitas Pelita Bangsa">
 ```
 
-- `<img>` digunakan untuk menampilkan gambar.  
-- `src= menunjukkan lokasi file gambar.  
-  → Dalam hal ini, file gambar adalah **Logo-Universitas-Pelita-Bangsa-removebg-preview.png**.  
-- `alt= berfungsi sebagai teks alternatif jika gambar gagal ditampilkan atau untuk aksesibilitas.  
+img: digunakan untuk menampilkan gambar.
 
-   Output :
+src="..."→ menunjukkan lokasi file gambar.
 
-<img width="950" height="776" alt="Screenshot 2025-09-23 122751" src="https://github.com/user-attachments/assets/3beca3b1-c190-431d-a46b-59f49a45427a" />
+alt="..."itu wajib secara akademis, sebagai teks alternatif jika gambar gagal ditampilkan atau untuk aksesibilitas.
 
-
-
-
-```html
+Dalam hal ini, file gambar adalah Logo-Universitas-Pelita-Bangsa-removebg-preview.png
+```
 </body>
 </html>
 ```
+Menutup elemen body dan html. Ini menandakan dokumen HTML telah selesai.
 
-- Menutup elemen body dan html. Ini menandakan dokumen HTML selesai.
+**Output :**
 
-Kesimpulan akademis:
+<img width="950" height="776" alt="Screenshot 2025-09-23 122751" src="https://github.com/user-attachments/assets/ce098624-79c5-49d9-9b71-f0283cbd3623" />
+
+**Kesimpulan:**
 
 - Struktur kode sudah sesuai standar HTML dasar (ada head, body, nav, heading, paragraf, dan gambar).
-- Ada beberapa atribut (`align`, `img` tanpa `alt`) yang sudah tidak sesuai rekomendasi HTML5 modern, sebaiknya diganti dengan CSS untuk styling.
-- Navigasi `<nav>` bagus untuk struktur semantik.
-- Identitas mahasiswa jelas ditampilkan dengan paragraf.
+- Ada beberapa atribut ( align, imgtanpa alt) yang sudah tidak sesuai rekomendasi HTML5 modern, sebaiknya diganti dengan CSS untuk styling.
+- Navigasi <nav>bagus untuk struktur semantik.
+- Identitas siswa jelas ditampilkan melalui paragraf.
 
-# Tangkapan Layar seluruh code Python
+
+
+  # Tangkapan Layar seluruh code Python
 
 <img width="1919" height="1005" alt="Screenshot 2025-09-23 123217" src="https://github.com/user-attachments/assets/3f5436b0-4d27-4620-9eaa-6f11e17b7a34" />
 
