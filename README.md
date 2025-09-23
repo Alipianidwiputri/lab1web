@@ -113,17 +113,16 @@ Heading kedua yang memperkenalkan submateri tentang paragraf.
   <img src="Logo-Universitas-Pelita-Bangsa-removebg-preview.png" alt="Logo Universitas Pelita Bangsa">
 ```
 
-Penjelasan :
-<img>: digunakan untuk menampilkan gambar.
+- `<img>` digunakan untuk menampilkan gambar.  
+- `src= menunjukkan lokasi file gambar.  
+  → Dalam hal ini, file gambar adalah **Logo-Universitas-Pelita-Bangsa-removebg-preview.png**.  
+- `alt= berfungsi sebagai teks alternatif jika gambar gagal ditampilkan atau untuk aksesibilitas.  
 
-src="..." → menunjukkan lokasi file gambar.
-Dalam hal ini, file gambar adalah Logo-Universitas-Pelita-Bangsa-removebg-preview.png.
+   Output :
 
-alt="..." itu wajib secara akademis, sebagai teks alternatif kalau gambar gagal ditampilkan atau untuk aksesibilitas.
+<img width="950" height="776" alt="Screenshot 2025-09-23 122751" src="https://github.com/user-attachments/assets/3beca3b1-c190-431d-a46b-59f49a45427a" />
 
-  Output :
 
-  <img width="950" height="776" alt="Screenshot 2025-09-23 122751" src="https://github.com/user-attachments/assets/e93545d1-18e5-4bdf-84fd-9fd97702c59f" />
 
 
 ```html
